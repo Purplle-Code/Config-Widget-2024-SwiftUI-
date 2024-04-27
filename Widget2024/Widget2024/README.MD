@@ -6,6 +6,7 @@
 Xcode header comments config for you
 -> go to project
 -> to #project-name.xcodeproj -> switch -> show package content
+    -> create file
     -> copy -> paste
     -> change file IDETemplateMacros.plist
     -> change for xcodeworkspace

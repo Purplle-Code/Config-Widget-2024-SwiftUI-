@@ -13,6 +13,7 @@
 		04222F2E2BDCEE57001389E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04222F2D2BDCEE57001389E6 /* Preview Assets.xcassets */; };
 		04222F352BDCEEB3001389E6 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 04222F342BDCEEB3001389E6 /* README.MD */; };
 		04222F392BDCEF62001389E6 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */; };
+		0463FA4D2BDCF4DC00B62933 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463FA4C2BDCF4DC00B62933 /* HomeView.swift */; };
 		D9AD9F16B481EB3876278FEE /* Pods_Widget2024.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65E2203F974CB76BA4A7CE4 /* Pods_Widget2024.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		04222F2D2BDCEE57001389E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04222F342BDCEEB3001389E6 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = IDETemplateMacros.plist; path = ../../../../../Downloads/IDETemplateMacros.plist; sourceTree = "<group>"; };
+		0463FA4C2BDCF4DC00B62933 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C65E2203F974CB76BA4A7CE4 /* Pods_Widget2024.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Widget2024.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EA7A4737A44636B5E1C44B /* Pods-Widget2024.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Widget2024.debug.xcconfig"; path = "Target Support Files/Pods-Widget2024/Pods-Widget2024.debug.xcconfig"; sourceTree = "<group>"; };
 		E1327793488729A03A69C5AA /* Pods-Widget2024.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Widget2024.release.xcconfig"; path = "Target Support Files/Pods-Widget2024/Pods-Widget2024.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				04222F342BDCEEB3001389E6 /* README.MD */,
 				04222F262BDCEE56001389E6 /* Widget2024App.swift */,
 				04222F282BDCEE56001389E6 /* ContentView.swift */,
+				0463FA4C2BDCF4DC00B62933 /* HomeView.swift */,
 				04222F2A2BDCEE57001389E6 /* Assets.xcassets */,
 				04222F2C2BDCEE57001389E6 /* Preview Content */,
 			);
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0463FA4D2BDCF4DC00B62933 /* HomeView.swift in Sources */,
 				04222F292BDCEE56001389E6 /* ContentView.swift in Sources */,
 				04222F272BDCEE56001389E6 /* Widget2024App.swift in Sources */,
 			);
