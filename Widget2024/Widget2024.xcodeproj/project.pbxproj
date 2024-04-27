@@ -46,6 +46,7 @@
 		04222F1A2BDCEE56001389E6 = {
 			isa = PBXGroup;
 			children = (
+				04222F342BDCEEB3001389E6 /* README.MD */,
 				04222F252BDCEE56001389E6 /* Widget2024 */,
 				04222F242BDCEE56001389E6 /* Products */,
 				B756A108C797D55BC6754DC9 /* Pods */,
@@ -65,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */,
-				04222F342BDCEEB3001389E6 /* README.MD */,
 				04222F262BDCEE56001389E6 /* Widget2024App.swift */,
 				04222F282BDCEE56001389E6 /* ContentView.swift */,
 				0463FA4C2BDCF4DC00B62933 /* HomeView.swift */,
