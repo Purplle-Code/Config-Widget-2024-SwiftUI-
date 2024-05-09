@@ -11,12 +11,29 @@
 
 import SwiftUI
 
-struct SidebarManager: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class SidebarManager: ObservableObject {
+    init(
+        width: CGFloat,
+        offsetX: CGFloat
+    ) {
+        self.width = width
+        self.offsetX = offsetX
     }
+    
+    @Published var width: CGFloat = 0
+    @Published var offsetX: CGFloat = 0
+    @Published var toggle: Bool = true
+    
+    func onToggle() {
+        withAnimation {
+            toggle.toggle()
+            if toggle {
+                offsetX = -width
+            } else {
+                offsetX = 0
+            }
+        }
+    }
+    
 }
 
-#Preview {
-    SidebarManager()
-}

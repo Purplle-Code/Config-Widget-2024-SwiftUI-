@@ -12,8 +12,21 @@
 		04222F2B2BDCEE57001389E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04222F2A2BDCEE57001389E6 /* Assets.xcassets */; };
 		04222F2E2BDCEE57001389E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04222F2D2BDCEE57001389E6 /* Preview Assets.xcassets */; };
 		04222F352BDCEEB3001389E6 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 04222F342BDCEEB3001389E6 /* README.MD */; };
-		04222F392BDCEF62001389E6 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */; };
+		042488702BDE03B500E738AD /* AnyDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424886D2BDE03B400E738AD /* AnyDestination.swift */; };
+		042488712BDE03B500E738AD /* RouterDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424886E2BDE03B500E738AD /* RouterDestination.swift */; };
+		042488722BDE03B500E738AD /* withAppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424886F2BDE03B500E738AD /* withAppRouter.swift */; };
+		042488742BDE044200E738AD /* Combine+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042488732BDE044200E738AD /* Combine+EXT.swift */; };
+		042488762BDE11DA00E738AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042488752BDE11DA00E738AD /* AppDelegate.swift */; };
+		0424887D2BDE163A00E738AD /* Color+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424887C2BDE163A00E738AD /* Color+EXT.swift */; };
+		0424887F2BDE166500E738AD /* Color+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424887E2BDE166500E738AD /* Color+Init.swift */; };
+		042488832BDE239A00E738AD /* Font+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042488822BDE239A00E738AD /* Font+EXT.swift */; };
+		042488862BDE250200E738AD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042488852BDE250200E738AD /* Theme.swift */; };
 		0463FA4D2BDCF4DC00B62933 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463FA4C2BDCF4DC00B62933 /* HomeView.swift */; };
+		04D471FA2BDD15D600203C3C /* 3DPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D471F92BDD15D600203C3C /* 3DPagingView.swift */; };
+		04D568812BDFA7B0005D75FC /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D568802BDFA7B0005D75FC /* ColorSet.swift */; };
+		04DD3D952BE7409F00F78190 /* UILaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD3D942BE7409F00F78190 /* UILaunchScreen.storyboard */; };
+		04DD3D972BE7410A00F78190 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD3D962BE7410A00F78190 /* SidebarView.swift */; };
+		04DD3D992BE7414200F78190 /* SidebarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD3D982BE7414200F78190 /* SidebarManager.swift */; };
 		D9AD9F16B481EB3876278FEE /* Pods_Widget2024.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65E2203F974CB76BA4A7CE4 /* Pods_Widget2024.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +37,22 @@
 		04222F2A2BDCEE57001389E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04222F2D2BDCEE57001389E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04222F342BDCEEB3001389E6 /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
-		04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = IDETemplateMacros.plist; path = ../../../../../Downloads/IDETemplateMacros.plist; sourceTree = "<group>"; };
+		0424886D2BDE03B400E738AD /* AnyDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyDestination.swift; path = ../../../../../Widget2024/Widget2024/Router/AnyDestination.swift; sourceTree = "<group>"; };
+		0424886E2BDE03B500E738AD /* RouterDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouterDestination.swift; path = ../../../../../Widget2024/Widget2024/Router/RouterDestination.swift; sourceTree = "<group>"; };
+		0424886F2BDE03B500E738AD /* withAppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = withAppRouter.swift; path = ../../../../../Widget2024/Widget2024/Router/withAppRouter.swift; sourceTree = "<group>"; };
+		042488732BDE044200E738AD /* Combine+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+EXT.swift"; sourceTree = "<group>"; };
+		042488752BDE11DA00E738AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0424887C2BDE163A00E738AD /* Color+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+EXT.swift"; sourceTree = "<group>"; };
+		0424887E2BDE166500E738AD /* Color+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Init.swift"; sourceTree = "<group>"; };
+		042488822BDE239A00E738AD /* Font+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+EXT.swift"; sourceTree = "<group>"; };
+		042488852BDE250200E738AD /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0463FA4C2BDCF4DC00B62933 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04D471F92BDD15D600203C3C /* 3DPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3DPagingView.swift; sourceTree = "<group>"; };
+		04D5687F2BDF9F59005D75FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04D568802BDFA7B0005D75FC /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		04DD3D942BE7409F00F78190 /* UILaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UILaunchScreen.storyboard; sourceTree = "<group>"; };
+		04DD3D962BE7410A00F78190 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		04DD3D982BE7414200F78190 /* SidebarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarManager.swift; sourceTree = "<group>"; };
 		C65E2203F974CB76BA4A7CE4 /* Pods_Widget2024.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Widget2024.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EA7A4737A44636B5E1C44B /* Pods-Widget2024.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Widget2024.debug.xcconfig"; path = "Target Support Files/Pods-Widget2024/Pods-Widget2024.debug.xcconfig"; sourceTree = "<group>"; };
 		E1327793488729A03A69C5AA /* Pods-Widget2024.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Widget2024.release.xcconfig"; path = "Target Support Files/Pods-Widget2024/Pods-Widget2024.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,11 +92,17 @@
 		04222F252BDCEE56001389E6 /* Widget2024 */ = {
 			isa = PBXGroup;
 			children = (
-				04222F382BDCEF62001389E6 /* IDETemplateMacros.plist */,
+				04D5687F2BDF9F59005D75FC /* Info.plist */,
+				042488842BDE24AE00E738AD /* Themes */,
+				042488802BDE218C00E738AD /* Assets */,
+				0424886C2BDE037F00E738AD /* Utils */,
+				0424886B2BDE037100E738AD /* Router */,
+				04D471F82BDD0CD000203C3C /* VM */,
+				04D471F72BDD0CCA00203C3C /* View */,
 				04222F262BDCEE56001389E6 /* Widget2024App.swift */,
 				04222F282BDCEE56001389E6 /* ContentView.swift */,
 				0463FA4C2BDCF4DC00B62933 /* HomeView.swift */,
-				04222F2A2BDCEE57001389E6 /* Assets.xcassets */,
+				042488752BDE11DA00E738AD /* AppDelegate.swift */,
 				04222F2C2BDCEE57001389E6 /* Preview Content */,
 			);
 			path = Widget2024;
@@ -81,6 +114,78 @@
 				04222F2D2BDCEE57001389E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0424886B2BDE037100E738AD /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0424886D2BDE03B400E738AD /* AnyDestination.swift */,
+				0424886E2BDE03B500E738AD /* RouterDestination.swift */,
+				0424886F2BDE03B500E738AD /* withAppRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0424886C2BDE037F00E738AD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				042488732BDE044200E738AD /* Combine+EXT.swift */,
+				0424887C2BDE163A00E738AD /* Color+EXT.swift */,
+				0424887E2BDE166500E738AD /* Color+Init.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		042488772BDE15AB00E738AD /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				04DD3D962BE7410A00F78190 /* SidebarView.swift */,
+				04DD3D982BE7414200F78190 /* SidebarManager.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		042488802BDE218C00E738AD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				042488812BDE21B100E738AD /* Fonts */,
+				04222F2A2BDCEE57001389E6 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		042488812BDE21B100E738AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				042488822BDE239A00E738AD /* Font+EXT.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		042488842BDE24AE00E738AD /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				042488852BDE250200E738AD /* Theme.swift */,
+				04D568802BDFA7B0005D75FC /* ColorSet.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		04D471F72BDD0CCA00203C3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04DD3D942BE7409F00F78190 /* UILaunchScreen.storyboard */,
+				042488772BDE15AB00E738AD /* Sidebar */,
+				04D471F92BDD15D600203C3C /* 3DPagingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D471F82BDD0CD000203C3C /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
 			sourceTree = "<group>";
 		};
 		10478CDD12F56B289C425565 /* Frameworks */ = {
@@ -159,8 +264,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04222F392BDCEF62001389E6 /* IDETemplateMacros.plist in Resources */,
 				04222F352BDCEEB3001389E6 /* README.MD in Resources */,
+				04DD3D952BE7409F00F78190 /* UILaunchScreen.storyboard in Resources */,
 				04222F2E2BDCEE57001389E6 /* Preview Assets.xcassets in Resources */,
 				04222F2B2BDCEE57001389E6 /* Assets.xcassets in Resources */,
 			);
@@ -199,8 +304,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0463FA4D2BDCF4DC00B62933 /* HomeView.swift in Sources */,
+				04D471FA2BDD15D600203C3C /* 3DPagingView.swift in Sources */,
+				04DD3D972BE7410A00F78190 /* SidebarView.swift in Sources */,
 				04222F292BDCEE56001389E6 /* ContentView.swift in Sources */,
+				04DD3D992BE7414200F78190 /* SidebarManager.swift in Sources */,
+				042488762BDE11DA00E738AD /* AppDelegate.swift in Sources */,
+				042488862BDE250200E738AD /* Theme.swift in Sources */,
+				042488722BDE03B500E738AD /* withAppRouter.swift in Sources */,
 				04222F272BDCEE56001389E6 /* Widget2024App.swift in Sources */,
+				042488742BDE044200E738AD /* Combine+EXT.swift in Sources */,
+				04D568812BDFA7B0005D75FC /* ColorSet.swift in Sources */,
+				042488702BDE03B500E738AD /* AnyDestination.swift in Sources */,
+				042488832BDE239A00E738AD /* Font+EXT.swift in Sources */,
+				0424887D2BDE163A00E738AD /* Color+EXT.swift in Sources */,
+				042488712BDE03B500E738AD /* RouterDestination.swift in Sources */,
+				0424887F2BDE166500E738AD /* Color+Init.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -316,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -338,11 +456,13 @@
 				DEVELOPMENT_TEAM = RWX46826M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget2024/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,11 +488,13 @@
 				DEVELOPMENT_TEAM = RWX46826M5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget2024/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
